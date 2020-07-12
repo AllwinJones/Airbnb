@@ -1,0 +1,119 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header_div {
+	background-color: #f2f2f2;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.header_title {
+	font-size: 25px;
+}
+.main_logo {
+	height: 100px;
+	width: 100px;
+}
+table.tab_headings {
+	font-size: 15px;
+}
+.button {
+  background-color: #f2f2f2;
+  border:  1px solid #f2f2f2;
+  color: #666666;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.repo_body {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.repository_box {
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	width: 29%;
+	height: 130px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.repository_box b {
+	color: blue;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.repository_box p {
+	font-size: 13px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.repository_box_inside {
+	width: 21%;
+	float: left;
+}
+.people_box {
+	width: 100%;
+	height: 130px;
+	float: left;
+}
+.ppl_img {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	float: left;
+	padding-top: 5px;
+}
+.ppl_body {
+	font-size: 15px;
+	padding-left: 100px;
+}
+.ppl_button {
+  background-color: #f2f2f2;
+  border:  1px solid #cccccc;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 70px;
+  height: 30px;
+}
+.package_box {
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	width: 100%;
+	height: 250px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+.filter_body {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.filter_select{
+	width: 100%;
+	float: left;
+}
+.filter_select select{
+	width: 110px;
+	height: 35px;
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	background-color: #f2f2f2;
+	margin-right: 20px;
+	text-align: center;
+	/* for Firefox */ 
+	-moz-appearance: none; 
+	/* for Safari, Chrome, Opera */ 
+	-webkit-appearance: none; 
+	background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-position-y: 5px;
+}
